@@ -1,0 +1,18 @@
+ENVI
+description = { LEDAPS Brightness Temperature (LC82070232016201LGN01)}
+samples = 975
+lines = 1000
+bands = 2
+data type = 2
+interleave = bsq
+file type = ENVI Standard
+header offset = 0
+byte order = 0
+map info = {IRENET95 / Irish Transverse Mercator, 1, 1, 594000.0, 729000.0, 30, 30, IRENET95, units=Meters}
+coordinate system string = {PROJCS["IRENET95 / Irish Transverse Mercator",GEOGCS["IRENET95",DATUM["IRENET95",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6173"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4173"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",53.5],PARAMETER["central_meridian",-8],PARAMETER["scale_factor",0.99982],PARAMETER["false_easting",600000],PARAMETER["false_northing",750000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2157"]]}
+band names = { TIR 1, TIR 2}
+data ignore value = -9999
+wavelength = { 10.895000, 12.005000}
+fwhm = { 0.590000, 1.010000}
+wavelength units= {Micrometers}
+parent rasters = { LC82070232016201LGN01_BT_ITM.dat }
